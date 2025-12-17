@@ -55,7 +55,12 @@ export const ProfileCard: React.FC = () => {
             <Mail className="w-3 h-3" />
             Let's collaborate
           </a>
-          <a href="#" className="inline-flex items-center justify-center w-full gap-2 px-6 py-3 rounded-lg border border-neutral-300 text-neutral-700 font-medium hover:bg-neutral-50 transition-all duration-200 font-inter text-sm">
+          <a 
+            href="https://drive.google.com/file/d/1-ceI7mMmtxWnyT0Hqtna70WzcYdCU1W8/view?usp=drive_link" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center w-full gap-2 px-6 py-3 rounded-lg border border-neutral-300 text-neutral-700 font-medium hover:bg-neutral-50 transition-all duration-200 font-inter text-sm"
+          >
             <Download className="w-3 h-3" />
             Download Resume
           </a>
