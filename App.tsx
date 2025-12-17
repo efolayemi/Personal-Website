@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Header } from './components/Header';
 import { ProfileCard } from './components/ProfileCard';
 import { AboutCard } from './components/AboutCard';
@@ -6,6 +6,11 @@ import { ProjectsCard } from './components/ProjectsCard';
 import { ExperienceCard } from './components/ExperienceCard';
 
 const App: React.FC = () => {
+  useEffect(() => {
+    // This log helps verify if the new version is live in production
+    console.log("Portfolio v2.1 loaded - Updated Project List");
+  }, []);
+
   return (
     <>
       <Header />

@@ -56,10 +56,12 @@ export const ProfileCard: React.FC = () => {
             Let's collaborate
           </a>
           <a 
-            href="https://drive.google.com/uc?export=download&id=1-ceI7mMmtxWnyT0Hqtna70WzcYdCU1W8" 
-            className="inline-flex items-center justify-center w-full gap-2 px-6 py-3 rounded-lg border border-neutral-300 text-neutral-700 font-medium hover:bg-neutral-50 transition-all duration-200 font-inter text-sm"
+            href="https://drive.google.com/file/d/1-ceI7mMmtxWnyT0Hqtna70WzcYdCU1W8/view" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center w-full gap-2 px-6 py-4 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transform hover:scale-[1.02] transition-all duration-200 shadow-md font-inter text-sm"
           >
-            <Download className="w-3 h-3" />
+            <Download className="w-4 h-4" />
             Download Resume
           </a>
         </div>
