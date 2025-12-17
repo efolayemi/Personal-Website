@@ -6,29 +6,13 @@ export const ProjectsCard: React.FC = () => {
     <section className="animate-fade-in-up animate-delay-600 relative rounded-2xl overflow-hidden bg-white border border-neutral-200 shadow-sm p-6 sm:p-8 hover:shadow-md transition-all duration-300">
       <div className="flex items-center gap-3 mb-8">
         <FolderGit2 className="w-5 h-5 text-neutral-700" />
-        <h3 className="text-xl font-geist font-extralight tracking-tight">Key Projects</h3>
+        <h3 className="text-xl font-geist font-bold tracking-tight text-neutral-900">Key Projects</h3>
       </div>
 
       <div className="grid gap-8">
         <ProjectItem
           title="Medibot Healthcare Chatbot"
-          description={`🩺 What is 𝗠𝗲𝗱𝗶𝗯𝗼𝘁?
-𝗠𝗲𝗱𝗶𝗯𝗼𝘁 is a virtual assistant designed to help patients check appointment availability, book, reschedule, and cancel hospital appointments — all from the palm of their hands.
-
-💡 Why 𝗠𝗲𝗱𝗶𝗯𝗼𝘁?
-Growing up in Nigeria, I’ve witnessed the long queues patients endure at hospitals just to book an appointment - a frustrating experience for both patients and admin staff.
-I've seen a similar pattern in the UK - patients waiting endlessly on the phone or in-person just to secure a GP slot, often weeks or months away. I’ve experienced it firsthand.
-
-So I thought:
-"What if patients could simply book instantly without staying on hold for minutes or standing in line?"
-That’s the challenge 𝗠𝗲𝗱𝗶𝗯𝗼𝘁 aims to solve.
-
-🔧 The Build
-I created the chatbot by:
-• Defining patient intents (like booking or cancelling)
-• Setting up slot types
-• Connecting AWS Lambda Functions to Amazon Lex
-• Deployed on Kommunicate`}
+          description="Medibot empowers patients to book, cancel, and reschedule hospital appointments effortlessly from their phones. Inspired by firsthand experiences in Nigeria and the UK, it tackles long queues and frustrating booking processes. Medibot simplifies access to care, saving time for both patients and healthcare staff."
           tags={['AWS Lex', 'Lambda', 'DynamoDB', 'Kommunicate', 'GitHub']}
           demoLink="https://drive.google.com/file/d/1iWLz3YVCG7rffqmKr8wqb_NVDhrsEwr1/view?usp=drive_link"
           readMoreLink="https://www.linkedin.com/posts/efolayemi_cloudcomputing-amazonlex-healthcareinnovation-activity-7346075953069977600-bVUa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAdrCpYBv0hhupstFIQRINf9FfJxmfAUaTg"
@@ -42,6 +26,14 @@ I created the chatbot by:
           demoLink="https://drive.google.com/file/d/1pJ1o8-wHnjoCOQRLBNB939l9cw0F9yo0/view?usp=sharing"
           readMoreLink="https://www.linkedin.com/posts/efolayemi_devops-devsecops-aws-activity-7383458631473659904-DXXx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAdrCpYBv0hhupstFIQRINf9FfJxmfAUaTg"
           image="https://drive.google.com/thumbnail?id=1fg0-SoNdUkCo2PsnfZjyv_kFGPm5XfNA&sz=w1000"
+          link="#"
+        />
+        <ProjectItem
+          title="Website Hosting on AWS Amplify"
+          description="Deployed a serverless portfolio website using React and AWS Amplify, implementing CI/CD via GitHub. Integrated S3 for asset storage and Route53 for custom domain management, utilizing Gemini AI for rapid development."
+          tags={['AWS Amplify', 'Route53', 'S3', 'GitHub', 'React', 'Gemini AI']}
+          image="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?q=80&w=2070&auto=format&fit=crop"
+          status="Live"
           link="#"
         />
         <ProjectItem

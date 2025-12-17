@@ -18,10 +18,6 @@ export const Header: React.FC = () => {
         </p>
       </div>
 
-      <p className="animate-fade-in-up animate-delay-200 max-w-2xl text-center text-neutral-600 text-lg mt-8 leading-relaxed font-inter">
-        Architecting robust digital infrastructure and scalable cloud solutions. Focusing on reliability, security, and systems optimization.
-      </p>
-
       <div className="animate-fade-in-up animate-delay-300 flex flex-wrap items-center justify-center gap-4 mt-8">
         <div className="flex items-center gap-2 text-sm text-neutral-500 font-inter">
           <MapPin className="w-3 h-3" />

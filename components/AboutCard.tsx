@@ -27,7 +27,7 @@ export const AboutCard: React.FC = () => {
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
-        <StatCard value="3" label="Projects Deployed" />
+        <StatCard value="4" label="Projects Deployed" />
       </div>
 
       <div className="border-t border-neutral-700 pt-6">
