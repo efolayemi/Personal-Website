@@ -56,7 +56,7 @@ export const ProfileCard: React.FC = () => {
             Let's collaborate
           </a>
           <a 
-            href="https://drive.google.com/file/d/1-ceI7mMmtxWnyT0Hqtna70WzcYdCU1W8/view" 
+            href="https://drive.google.com/file/d/1FP51k60dHZiFxFmqNMTlE97P96pP7d-n/view?usp=drive_link" 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center w-full gap-2 px-6 py-4 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transform hover:scale-[1.02] transition-all duration-200 shadow-md font-inter text-sm"
